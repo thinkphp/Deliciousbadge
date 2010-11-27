@@ -52,16 +52,16 @@ var Deliciousbadge = new Class({
      * Once the JSON call executes successfully, it sends the object containing our bookmarks to this
      * method, which will call 'displayData', forwarding the object.
      * 
-     * @public
+     * @private
      */     
-    retrieveData: function(o){
+    _retrieveData: function(o){
         //stops timeout and sends the JSON dataset o
         $clear(this.to); 
         this._displayData(o);
     },    
     /* 
      * Follows the link if there was a 404
-     * @public
+     * @private
      */
     _failure: function() {      
         $clear(this.to);
@@ -101,7 +101,7 @@ var Deliciousbadge = new Class({
                   seeder.setProperties({'type':'text/javascript','src': srcurl}); 
                   seeder.inject(document.head);
                      window.callbackdelbadge = function(dataset) {                      
-                           this.retrieveData(dataset);
+                           this._retrieveData(dataset);
                      }.bind(this);
          }//end if                       
     },
@@ -110,6 +110,7 @@ var Deliciousbadge = new Class({
      * we want to display the bookmarks as a list, we need to create a new unordered list element
      * and assign it an ID (defined in options) to allow for styling.  
      * @param o (Array of Object) the data from del.icio.us service 
+     *
      * @private
      */
     _displayData: function(o) {
