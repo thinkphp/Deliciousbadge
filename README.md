@@ -1,6 +1,9 @@
 Deliciousbadge
 ====================
 
+This plugin MooTools allows you to create a badge for your website that loads content from the social bookmarking site del.icio.us. The badge will be relatively unobtrusive to visitors, 
+and when it's clicked, it will expand to display the site owner's most recently added bookmarks. These bookmarks are loaded as the user cliks the link, so this list will always be up-to-date.
+
 Plugin descriptions
 
 ![Screenshot](http://farm6.static.flickr.com/5282/5212154342_dc9c8928a2_b.jpg)
