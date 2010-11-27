@@ -1,7 +1,0 @@
-name: Deliciousbadge
-author: thinkphp
-current: v1.0 
-category: Utilities  
-tags: [del.icio.us, bookmark, jsonp, json, badge, widget]
-docs: https://github.com/thinkphp/Deliciousbadge/blob/master/Docs/Deliciousbadge.md
-demo: http://thinkphp.github.com/Deliciousbadge/ 
