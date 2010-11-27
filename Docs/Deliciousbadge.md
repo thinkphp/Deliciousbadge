@@ -1,7 +1,11 @@
 Class: Deliciousbadge {#Deliciousbadge}
 =========================================================
 
-This plugin will analyse the text of a form field, run it through the Yahoo Term Extraction Web Service and provides a list of signifiant words or phrases as tags.
+This plugin MooTools allows you to create a badge for your website that loads content from the social bookmarking site del.icio.us. The badge will be relatively unobtrusive to visitors, 
+and when it's clicked, it will expand to display the site owner's most recently added bookmarks. These bookmarks are loaded as the user cliks the link, so this list will always be up-to-date.
+I'll use JavaScript to display the badge through the del.icio.us API - the interface through which del.icio.us allows its data to be queried and manipulated - and
+we'll transfer the information from del.icio.us in JSON, a lightweight file format for transmitting text data.Thought its final appearance will depend on how you choose to style it, the completed badge will look something
+like the one shown below. The only changes that you'll need to make to your site in order to display are:- add a link to your bookmarks on del.icio.us - include this plugin in the head of your document.
 
 ### Implements:
 
