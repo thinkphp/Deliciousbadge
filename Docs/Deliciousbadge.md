@@ -25,17 +25,11 @@ Deliciousbadge Method: constructor {#Deliciousbadge: constructor}
 
 #### Options:
 
-- badgeid (*String*)        - ID of the initial link. Allows us to change the value of
-                              the ID attribute that we're adding to the initial link.
-- outputid (*String*)       - ID of output list. Allows us to change the value of the ID
-                              attribute to the generated list of bookmarks, respectively,
-                              should we want to do so. 
-- loadingMessage (*String*) - this message will be added to the link text as a 
-                              span Element while the bookmarks are being retrieved
-                              from the del.icio.us server. 
+- badgeid (*String*)        - ID of the initial link. Allows us to change the value of the ID attribute that we're adding to the initial link.
+- outputid (*String*)       - ID of output list. Allows us to change the value of the ID attribute to the generated list of bookmarks, respectively, should we want to do so.
+- loadingMessage (*String*) - this message will be added to the link text as a  span Element while the bookmarks are being retrieved from the del.icio.us server. 
 - amount (*Integer*)        - number of links that are to be shown.
-- timeoutDelay (*Integer*)  - timeout in miliseconds that our script should wait before 
-                              assuming that the server cannot be reached.
+- timeoutDelay (*Integer*)  - timeout in miliseconds that our script should wait before assuming that the server cannot be reached.
 
 
 ### Returns:
