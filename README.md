@@ -1,0 +1,1 @@
+You can see the badge in action: [http://thinkphp.github.com/Deliciousbadge/](http://thinkphp.github.com/Deliciousbadge/)
