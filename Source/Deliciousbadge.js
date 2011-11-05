@@ -111,7 +111,7 @@ var Deliciousbadge = new Class({
                    * that I included in the URL)
                    */
                   var seeder = new Element('script');     
-                  var srcurl = 'http://del.icio.us/feeds/json/'+ user +'?count='+ this.options.amount+'&callback=callbackdelbadge';
+                  var srcurl = 'http://feeds.del.icio.us/v2/json/'+ user +'?count='+ this.options.amount+'&callback=callbackdelbadge';
                   seeder.setProperties({'type':'text/javascript','src': srcurl}); 
                   seeder.inject(document.head);
                      window.callbackdelbadge = function(dataset) {                      
